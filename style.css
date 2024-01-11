@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(34, 57, 57);
+    text-align: center;
+}
+
+h1{
+    color: aliceblue;
+    text-decoration: underline;
+    margin: 15px;
+}
+.container{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 16px rgba(0,0 0,0.3);
+    font-size: 8vmin;
+    background-color: aliceblue;
+    color: brown;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+    border: none;
+}
+
+#reset-btn:hover{
+    color: black;
+    background-color: rgb(128, 102, 102);
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn:hover{
+    color: black;
+    background-color: rgb(128, 102, 102);
+}
+
+#msg{
+    color: aliceblue;
+    font-size:7vmin ;
+    margin: 8px;
+}
+
+.msg-container{
+    height: 18vmin;
+    
+}
+
+.hide{
+    display: none;
+}
+
+/* Your existing CSS styles */
+
+.red-text {
+    color: red; /* Red color for X */
+}
+
+.green-text {
+    color: green; /* Green color for 0 */
+}
